@@ -1,3 +1,9 @@
+macro_deref-arrow: macro_deref-arrow{
+compatible = "zmk,behavior-macro";
+label = "macro_deref-arrow";
+#binding-cells = <0>;
+bindings = <&kp MINUS>, <&kp GREATER_THAN>;
+};
 macro_alt_shift_tab: macro_alt_shift_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_shift_tab";
