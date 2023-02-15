@@ -1,6 +1,6 @@
-macro_deref-arrow: macro_deref-arrow{
+macro_deref_arrow: macro_deref_arrow{
 compatible = "zmk,behavior-macro";
-label = "macro_deref-arrow";
+label = "macro_deref_arrow";
 #binding-cells = <0>;
 bindings = <&kp MINUS>, <&kp GREATER_THAN>;
 };
