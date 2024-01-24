@@ -32,7 +32,7 @@ macro_alt_tab: macro_alt_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_tab";
 #binding-cells = <0>;
-bindings = <&kp TAB>;
+bindings = <&sk LALT>, <&kp TAB>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
@@ -63,6 +63,12 @@ compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
 bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+};
+macro_kinesis: macro_kinesis{
+compatible = "zmk,behavior-macro";
+label = "macro_kinesis";
+#binding-cells = <0>;
+bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
